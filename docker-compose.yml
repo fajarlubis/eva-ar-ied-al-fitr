@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  eva-ar:
+    image: tomsik68/xampp:8
+    container_name: eva-ar
+    ports:
+      - 41061:22
+      - 41062:80
+    volumes:
+      - ./:/www/eva-ar
